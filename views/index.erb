@@ -1,4 +1,10 @@
 <h1>My name is <%= @cat_name %> </h1>
+<% if !@cat_name %>
+  <form action='/named-cat'>
+    <input type='text' name='cat_name'>
+    <input type='submit' value='Submit'>
+  </form>
+<% end %>
 <div>
 <img src='http://i.imgur.com/jFaSxym.png' style='border:dashed red'>
 </div>
