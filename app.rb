@@ -10,5 +10,5 @@ get '/secret' do
 end
 
 get '/cat' do
-  
+  "<img src='http://i.imgur.com/jFaSxym.png' style='border:dashed red'>"
 end
